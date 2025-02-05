@@ -1,1 +1,3 @@
-python calculator with buttons, made using tkinter module
+Alogi's simple calculator with buttons.
+To use this program, you WILL need Python, and tkinter.
+The tkinter files are attached to the repository
