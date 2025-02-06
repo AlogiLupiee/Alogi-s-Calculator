@@ -5,3 +5,4 @@ See the requirements.txt file.
 It can only process ONE action.
 For ex.: 1 + 1 = 2,
 not: 1 + 1 + 1 = 3.
+Do not copy without permission
