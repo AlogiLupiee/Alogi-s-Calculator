@@ -1,8 +1,8 @@
 from tkinter import *
 
 tk = Tk()
-tk.title("Alogi's Calculator 0.4")
-tk.config(padx=200, pady=50)
+tk.title("Alogi's Calculator 0.5")
+tk.config(padx=200, pady=50, bg = 'snow')
 
 num1 = []
 num2 = []
@@ -122,6 +122,13 @@ def clickd():
     operator = "/"
     print("/")
 
+def clickpp():
+    global change
+    global operator
+    change = True
+    operator = "**"
+    print("**")
+
 def clickprint():
     d = ""
     numlist1 = map(str, num1)
@@ -130,18 +137,26 @@ def clickprint():
     joinnum2 = d.join(numlist2)
     if operator == "+" :
         result = int(joinnum1) + int(joinnum2)
+        print("=")
         print(result)
     elif operator == "-" :
         result = int(joinnum1) - int(joinnum2)
+        print("=")
         print(result)
     elif operator == "*":
         result = int(joinnum1) * int(joinnum2)
+        print("=")
+        print(result)
+    elif operator == "**":
+        result = int(joinnum1) ** int(joinnum2)
+        print("=")
         print(result)
     elif operator == "/":
         if int(joinnum2) == 0:
             print("Error! You can't divide by 0.")
         else:
             result = int(joinnum1) / int(joinnum2)
+            print("=")
             print(float(result))
 
 button1 = Button(tk, width = 3, height = 3, text = "1", command = lambda: click1())
@@ -186,13 +201,17 @@ buttonmulti.grid(column = 5, row = 1)
 buttondiv = Button(tk, width = 6, height = 3, text = "/", command = lambda: clickd())
 buttondiv.grid(column = 5, row = 2)
 
+buttonpower = Button(tk, width = 6, height = 3, text = "**", command = lambda: clickpp())
+buttonpower.grid(column = 5, row = 3)
+
 buttonend = Button(tk, width = 6, height = 3, text = "=", command = lambda: clickprint())
 buttonend.grid(column = 4, row = 1)
 
 mainloop()
 
-# change log 0.4:
-# - Changed code language to English
+# change log 0.5:
+# - added powers
+# - changed the color of the background from white to snow
 # To do:
-# - add powers
 # - add "C" button
+# - light/dark modes
