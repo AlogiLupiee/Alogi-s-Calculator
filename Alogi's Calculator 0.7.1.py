@@ -191,7 +191,7 @@ def clickprint():
             print(float(result))
 
 tk = Tk()
-tk.title("Alogi's Calculator 0.7")
+tk.title("Alogi's Calculator 0.7.1")
 tk.config(padx=200, pady=50, bg = 'azure2')
 
 button1 = Button(tk, width = 3, height = 3, text = "1", command = lambda: click1(), bg = 'slate gray', fg = 'light blue', activebackground = 'light slate gray')
