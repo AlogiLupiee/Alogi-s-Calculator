@@ -5,6 +5,8 @@
   <img src="https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg" alt="Maintenance">
 </p>
 
+> Launch of the Enhanced calculator project! For details, see the category "Enhanced calculator".
+
 > My small attempt at creating an easy and simple calculator app with option for a virtual keyboard.
 
 > NOTE: the app only calculates one operation (1+1 not 1+1+1)
@@ -53,5 +55,9 @@ The app was created as my first "major" app in python. I implemented my ideas on
 <p align="center">
   <img src="assets/cal_menu_readme.jpg" alt="Final summary" width="200"/>
 </p>
+
+## Enhanced calculator
+
+### I've started working on the new version aiming to allow for multiple operations in one go! You can see the newest version and the progress in the new branch.
 
 # Enjoy the app!
