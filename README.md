@@ -13,7 +13,7 @@
 
 ## Backstory and motivations
 
-The app was created as my first "major" app in python. I implemented my ideas one by one, to create a fun project mainly focusing on learning python in a fun way, instead of watching hours of tutorials.
+This app was created as my first "major" app in python. I implemented my ideas one by one, to create a fun project mainly focusing on learning python in a fun way, instead of watching hours of tutorials.
 
 ## Features
 
@@ -37,6 +37,8 @@ The app was created as my first "major" app in python. I implemented my ideas on
 ### *Tip: Use the "C" button to clear the display*
 
 ## Screenshots
+
+### Images are from version 1.2.3. Check out the enhanced version.
 
 > Light mode
 
