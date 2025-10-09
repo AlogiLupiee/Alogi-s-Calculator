@@ -3,7 +3,7 @@ from webbrowser import open_new
 
 # main window properties
 tk = Tk()
-tk.title("Alogi's Enchanced Calculator 0.4")
+tk.title("Alogi's Enhanced Calculator 0.4")
 tk.config(padx=200, pady=50, bg = 'azure2')
 
 # this allows widget resizing
