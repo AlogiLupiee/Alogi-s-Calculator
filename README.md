@@ -2,7 +2,7 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3.12%2B-blue?logo=python" alt="Python Version">
-  <img src="https://img.shields.io/badge/maintained%3F-no-brightred.svg" alt="Maintenance">
+  <img src="https://img.shields.io/badge/maintained%3F-no-red.svg" alt="Maintenance">
 </p>
 
 > Launch of the Enhanced calculator project! For details, see the category "Enhanced calculator".
