@@ -163,7 +163,7 @@ def activ_rec():
 
 def activ_tpz():
     global mode
-    mode = "Trapezoid"
+    mode = "trapezoid"
     clickC()
     var1.set("input a, then click '=' : ")
 
